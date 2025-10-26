@@ -19,13 +19,14 @@ outside temperature**.
 ---
 
 ## Architecture
-
+```
 app/
 ├─ data/ → Repositories + Data Sources (mocked)
 ├─ domain/ → Models + Use Cases + Repository Interfaces
 ├─ presentation/ → UI Screens + ViewModels
 ├─ di/ → Hilt Modules
 └─ MainActivity.kt → Entry point
+```
 
 - **Data Layer:** Provides **mocked car status**.
 - **Domain Layer:** Business logic via Use Cases.
